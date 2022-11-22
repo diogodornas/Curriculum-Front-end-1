@@ -1,0 +1,205 @@
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body  {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    font-size: 15px;
+    text-align: center;
+    position: relative;
+}
+
+.fixed  {
+    background-color: rgb(70, 68, 68);
+    justify-content: center;
+    align-items: center;
+    padding: 3%;
+    height: 97vh;
+    margin-left: 10px;
+}
+
+.texto-fixed ul li  {
+    position: center;
+    display: center;
+    list-style: none;
+    flex-direction: row;
+    align-items: center;
+    padding-bottom: 14px;
+}
+
+.lista-menu  {
+    display: block;
+    position: relative;
+    font-size: 20px;
+    padding-top: 60px;
+}
+
+a  {
+    color: white;
+}
+
+.bt01:hover  {
+    transform: scale(1.2);
+    transition: .3s;
+}
+
+.bt02:hover  {
+    transform: scale(1.2);
+    transition: .3s;
+}
+
+.bt03:hover  {
+    transform: scale(1.2);
+    transition: .3s;
+}
+
+a:hover {
+    color: #1DA1F2;   
+}
+
+.foto-perfil  {
+    position: center;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-top: 50%;
+    border: solid 3px white;
+    transition: 1s;
+}
+
+.foto-perfil:hover  {
+    transform: scale(1.3);
+}
+
+.infos  {
+    display: block;
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: left;
+    animation: fadein 2s;
+}
+
+.name  {
+    color: white;
+    font-size: 50px;
+}
+
+.email  {
+    text-decoration: none;
+    color: rgb(122, 120, 120);
+}
+
+.email:hover  {
+    color: #1DA1F2 ;
+}
+
+.growdev  {
+    text-decoration: none;
+}
+
+.sobre  {
+    font-size: 20px;
+}
+
+.conhecimentos  {
+    font-size: 18px;
+}
+
+.objetivos  {
+    font-size: 18px;
+    color: white;
+}
+
+.listaobj   {
+    display: block;
+}
+
+.redes  {
+    text-align: left;    
+}
+
+ol  {
+    margin-left: 25px;
+    margin-right: 50px;
+}
+
+ul  {
+    position: relative;
+    display: flex;
+}
+
+ul li  {
+    position: relative;
+    margin: 0 20px;
+    cursor: pointer;
+}
+
+.listaredes {
+    list-style: none;
+}
+
+ul li a {
+    text-decoration: none;
+}
+
+ul li a .fa-brands {
+    font-size: 6em;
+    color: rgb(70, 68, 68);
+}
+
+ul li a::before {
+    font-family: "FontAwesome";
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 6em;
+    height: 0;
+    overflow: hidden;
+    transition: 0.5s ease-in-out;
+}
+
+ul .insta:nth-child(1) a::before {
+    content: "\f16d";
+    color: #e46635;
+    border-bottom: 4px solid #e46635;
+}
+
+ul .wpp:nth-child(2) a::before {
+    content: "\f232";
+    color: #25D366;
+    border-bottom: 4px solid #25D366;
+}
+
+ul .github:nth-child(3) a::before {
+    content: "\f09b";
+    color: #fcfcfc;
+    border-bottom: 4px solid #fcfcfc;
+}
+
+ul .youtube:nth-child(4) a::before {
+    content: "\f167";
+    color: #cc1818;
+    border-bottom: 4px solid #cc1818;
+}
+
+ul .linkedin:nth-child(5) a::before {
+    content: "\f08c";
+    color: #1DA1F2;
+    border-bottom: 4px solid #1DA1F2;
+}
+
+ul li:hover a::before {
+    height: 100%;
+}
+
+@keyframes fadein {
+    from { opacity: 0.1; }
+    to { opacity: 1;  }
+}
