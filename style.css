@@ -25,6 +25,10 @@ body  {
     margin-left: 10px;
 }
 
+.texto-fixed ul  {
+    padding-bottom: 190px;
+}
+
 .texto-fixed ul li  {
     position: center;
     display: center;
@@ -69,7 +73,7 @@ a:hover {
     width: 200px;
     height: 200px;
     border-radius: 50%;
-    margin-top: 50%;
+    margin-top: 180px;
     border: solid 3px white;
     transition: 1s;
 }
